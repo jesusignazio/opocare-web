@@ -1,9 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4294E3;
-    --secondary: #8F12FD;
+    --primary: #1976D2;   /* azul */
+    --secondary: #00ACC1; /* cian */
     --light: #F0F6FF;
     --dark: #262B47;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -148,7 +152,7 @@ h6,
     position: relative;
     margin-right: 25px;
     padding: 45px 0;
-    font-family: 'Jost', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: var(--light) !important;
@@ -452,9 +456,7 @@ h6,
     transition: .3s;
 }
 
-.footer .btn.btn-social:hover {
-    color: var(--primary);
-}
+.footer .btn.btn-social:hover { color: var(--primary); }
 
 .footer .btn.btn-link {
     display: block;
@@ -499,4 +501,12 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+* {
+  font-family: inherit;
 }
